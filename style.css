@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url(https://i.ibb.co/sJzR82b/back3.jpg);
+
+}
+header{
+    text-shadow: 0px 0px 4px #fa05059a;
+}
+
+body {
+    
+    padding:40px;
+   /* background-color: rgba(255, 255, 255, 0.768);*/
+    
+    
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color:black;
+
+}
+
+
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-shadow: 0px 0px 6px #fa05059a;
+    text-align: center;
+    font-family: 'bradley hand ITC';
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-shadow: 0px 0px 4px #fa05059a;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#menu {
+    font-size: x-large;
+    margin-top: 3px;
+    background-color: rgba(0, 0, 0, 0.469);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#menu a:hover {
+    text-decoration: underline;  
+    background:black; 
+    color:white; 
+    opacity: 0.6;
+    padding: 2px;
+}
+
+
+#Submenu {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+#Submenu a{
+    color:rgb(94, 0, 0);
+    text-shadow: 0px 0px 4px white;
+    
+}
+#Submenu a:hover {
+    text-decoration: underline;  
+    background:black; 
+    color:white; 
+    opacity: 0.6;
+    padding: 2px;
+}
+
+#Voltar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;    
+}
+
+p{
+    text-indent: 2em;
+}
+
+
+#corpo-txt{
+    min-width: 200px;
+    margin-bottom:20px;
+}
+
+#img-home img { 
+    margin-left: 10px;
+    margin-bottom: 10px;
+    min-width: 300px;
+    width: 35%;
+    float: right;
+    
+}
+.container{
+    
+    width: 1200px;
+    margin:0 auto;
+    
+}
+
+#fins{
+    text-align: right; 
+    font-size: 15px;
+}
+
+
+#fins a:hover{
+    
+    background: #00FA9A;
+}
+
+div.galeria {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.galeria:hover {
+  border: 1px solid #777;
+}
+
+div.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+div.galeria {
+  padding: 15px;
+  text-align: center;
+}
+
+footer{
+    clear: both;
+    margin-top:20px;
+    padding-top: 30px;
+    height: 100px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111111;
+    color: silver;
+    background-color: #353535;
+}
